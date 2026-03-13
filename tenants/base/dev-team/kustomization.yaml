@@ -4,3 +4,4 @@ namespace: apps
 resources:
   - rbac.yaml
   - sync.yaml
+  - dev-team-clister.yaml
