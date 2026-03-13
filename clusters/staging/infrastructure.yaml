@@ -36,8 +36,6 @@ metadata:
   name: kafka
   namespace: flux-system
 spec:
-  dependsOn:
-    - name: kafka
   interval: 15m0s
   sourceRef:
     kind: GitRepository
