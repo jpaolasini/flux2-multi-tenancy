@@ -3,5 +3,6 @@ kind: Kustomization
 namespace: apps
 resources:
   - ../base/dev-team
+  - cluster-ABC0.yaml
 patches:
   - path: dev-team-patch.yaml

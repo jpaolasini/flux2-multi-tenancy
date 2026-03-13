@@ -4,4 +4,3 @@ namespace: apps
 resources:
   - rbac.yaml
   - sync.yaml
-  - dev-team-cluster.yaml
